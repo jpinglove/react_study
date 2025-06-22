@@ -2,6 +2,8 @@ import logo from "./logo.svg";
 import "./App.css";
 import Hello from "./Hello";
 import Greeting from './Greeting'
+import UserProfit from "./Private/UserProfit";
+
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
         {/* <Hello name={"jonathan"} url={"www.aabb.com"}></Hello> */}
 
         <Greeting></Greeting>
+          <UserProfit></UserProfit>
       </header>
     </div>
   );
