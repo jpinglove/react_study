@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Hello from "./Hello";
+import Greeting from './Greeting'
 
 function App() {
   return (
@@ -19,7 +20,9 @@ function App() {
           Lear000n React
         </a> */}
 
-        <Hello name={"jonathan"} url={"www.aabb.com"}></Hello>
+        {/* <Hello name={"jonathan"} url={"www.aabb.com"}></Hello> */}
+
+        <Greeting></Greeting>
       </header>
     </div>
   );
