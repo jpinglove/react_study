@@ -3,7 +3,7 @@ import "./App.css";
 import Hello from "./Hello";
 import Greeting from './Greeting'
 import UserProfit from "./Private/UserProfit";
-
+import Button from "./components/Button";
 
 function App() {
   return (
@@ -26,6 +26,7 @@ function App() {
 
         <Greeting></Greeting>
           <UserProfit></UserProfit>
+          <Button></Button>
       </header>
     </div>
   );
